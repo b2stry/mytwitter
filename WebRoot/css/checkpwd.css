@@ -1,0 +1,49 @@
+.pw-strength{
+	clear: both;
+	position: relative;
+	top: -42px;
+	left: 240px;
+	width: 180px;
+}
+.pw-bar{
+	background: url(../img/pwd-1.png) no-repeat;
+	height: 14px;
+	overflow: hidden;
+	width: 179px;
+}
+.pw-bar-on{
+	background:  url(../img/pwd-2.png) no-repeat; 
+	width:0px;
+	height:14px;
+	position: absolute;
+	top: 0px;
+	left: 2px;
+	transition: width .5s ease-in;
+	-moz-transition: width .5s ease-in;
+	-webkit-transition: width .5s ease-in;
+	-o-transition: width .5s ease-in;
+}
+.pw-weak .pw-defule{
+	width:0px;
+}
+.pw-weak .pw-bar-on {
+	width: 60px;
+}
+.pw-medium .pw-bar-on {
+	width: 120px;
+}
+.pw-strong .pw-bar-on {
+	width: 179px;
+}
+.pw-txt {
+	padding-top: 2px;
+	width: 180px;
+	overflow: hidden;
+}
+.pw-txt span {
+	color: #707070;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	width: 58px;
+}

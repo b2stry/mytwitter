@@ -1,0 +1,54 @@
+
+#slider {
+  margin: 120px auto;
+  width: 380px;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  left:-67px;
+  background-color: #dae2d0;
+  overflow: hidden;
+  text-align: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+#slider_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(29,161,241,1.00);
+  z-index: 1;
+}
+
+#label {
+  width: 46px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #cccccc;
+  background: #fff;
+  z-index: 3;
+  cursor: move;
+  color: #ff9e77;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+#labelTip {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei', serif;
+  color: gray;
+  line-height: 48px;
+  text-align: center;
+  z-index: 2;
+}
+/*www.sucaijiayuan.com*/

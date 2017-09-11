@@ -1,0 +1,260 @@
+@CHARSET "UTF-8";
+
+.reveal-modal-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1000000;
+	top: 0;
+	left: 0;
+	background: rgba(00, 00, 00, 0.5);
+	display: none;
+}
+
+.reveal-modal {
+	visibility: hidden;
+	top: 150px;
+	left: 625px;
+	margin-left: -260px;
+	width: 620px;
+	position: absolute;
+	z-index: 1000001;
+	padding: 30px 40px 34px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 .5px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 0 .5px rgba(0, 0, 0, .4);
+	-box-shadow: 0 0 .5px rgba(0, 0, 0, .4);
+	background-color: white;
+	margin-left: -260px;
+}
+
+.reveal-modal.small {
+	width: 200px;
+	margin-left: -140px;
+}
+
+.reveal-modal.medium {
+	width: 400px;
+	margin-left: -240px;
+}
+
+.reveal-modal.large {
+	width: 600px;
+	margin-left: -340px;
+}
+
+.reveal-modal.xlarge {
+	width: 800px;
+	margin-left: -440px;
+}
+
+.reveal-modal .close-reveal-modal {
+	font-size: 22px;
+	line-height: 0.5;
+	position: absolute;
+	top: 8px;
+	right: 11px;
+	color: #333;
+	text-shadow: 0 -1px 1px rbga(0, 0, 0, .6);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#tanchu_touxiang img {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	float: left;
+}
+
+#nameandaite {
+	height: 60px;
+	width: auto;
+	max-width: 300px;
+	position: absolute;
+	margin-left: 75px;
+}
+
+#tanchu_name {
+	font-size: 23px;
+	font-weight: bold;
+	color: black;
+}
+
+#tanchu_aite {
+	font-size: 14px;
+	color: rgb(101, 119, 134);
+	margin-top: 5px;
+}
+
+#tanchu_neirong {
+	width: 540px;
+	height: auto;
+	word-wrap: break-word;
+	word-break: break-all;
+	position: relative;
+	margin-top: 80px;
+	font-size: 26px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+#tanchu_time {
+	font-size: 13px;
+	color: rgb(101, 119, 134);
+}
+
+#tanchu_gongneng ul {
+	margin-left: 2px;
+}
+
+#tanchu_gongneng {
+	height: 50px;
+}
+
+#tanchu_gongneng ul li {
+	float: left;
+	font-size: 16px;
+	margin-right: 60px;
+	cursor: pointer;
+	color: gray;
+}
+
+.huifuinput {
+	width: 620px;
+	height: 190px;
+	background-color: rgba(232, 245, 253, 1.00);
+	position: relative;
+	left: -40px;
+}
+
+#lasttubiao {
+	width: 620px;
+	height: 80px;
+	position: relative;
+	left: -40px;
+	text-align: center;
+	margin-bottom: -40px;
+	background-color: gainsboro;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	line-height: 80px;
+}
+
+#huifuinput_touxiang img {
+	width: 48px;
+	height: 48px;
+	border-radius: 10px;
+	float: left;
+}
+
+#huifushuru {
+	width: 470px;
+	padding: 10px;
+	border: 1px solid rgba(29, 161, 241, 1.00);
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+textarea {
+	resize: none;
+	overflow-y: auto;
+	width: 100%;
+	min-height: 80px;
+	border-style: hidden;
+}
+
+#huifuanniu {
+	width: 100px;
+	height: 40px;
+	position: relative;
+	top: 10px;
+	left: 430px;
+	font-sizes: 15px;
+	font-weight: bold;
+}
+
+.zhuanfabiaoti {
+	font-size: 20px;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: -30px;
+}
+
+.zhuanfashuru {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 580px;
+	padding: 10px;
+	border: 1px solid rgba(29, 161, 241, 1.00);
+	border-radius: 3px;
+}
+
+.zhuanfa_touxiang {
+	width: auto;
+	height: auto;
+}
+
+.zhuanfa_touxiang img {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	float: left;
+}
+
+.zhuanfa_neirong {
+	margin-top: 20px;
+}
+
+.zhuanfa_xiangqing {
+	padding-left: 70px;
+	height: 30px;
+}
+
+.zhuanfa_name {
+	float: left;
+	max-width: 200px;
+	word-wrap: break-word;
+	word-break: break-all;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.zhuanfa_aite {
+	float: left;
+	max-width: 200px;
+	word-wrap: break-word;
+	word-break: break-all;
+	margin-left: 2px;
+}
+
+.zhuanfa_xinxi {
+	padding-left: 70px;
+	width: 540px;
+	height: auto;
+	color: black;
+	font-size: 15px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.zhuanfaanniu {
+	width: 100px;
+	height: 40px;
+	position: relative;
+	top: 10px;
+	left: 440px;
+	font-sizes: 15px;
+	font-weight: bold;
+}
+
+#huibiaoti {
+	border-bottom: 1px solid gray;
+	margin-left: -40px;
+	margin-right: -40px;
+}
