@@ -305,10 +305,10 @@ h1 {
 		<div id="login">
 			<form action="user.do?method=checklogin" method="post">
 				<input class="txt" placeholder="邮件地址或用户名" type="text"
-					name="username" autofocus id="username" value="377674033@qq.com" /><br>
+					name="username" autofocus id="username" value="" /><br>
 				<input class="txt" placeholder="密码" type="password" name="password"
 					style="width: 200px;margin-bottom: 0;" id="password"
-					value="pei960402" />
+					value="" />
 				<button class="btn" id="signin"
 					style="font-weight: bold;border-radius: 5px;background-color: white;
 				border:1px solid  rgba(29, 161, 241, 1.00);color:rgba(29, 161, 241, 1.00);">登录</button>
