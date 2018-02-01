@@ -3,7 +3,7 @@
 首页
 
 ![首页](https://raw.githubusercontent.com/b2stry/imgrepo/master/index.png)
-
+<hr>
 注册界面
 
 ![注册界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/register.png)
