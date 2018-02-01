@@ -19,4 +19,4 @@
 
 ![聊天界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/message.png)
 
-![查询用户界面](https://raw.githubusercontent.com/b2stry/imgrepo/mastero/seacher.png)
+![查询用户界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/seacher.png)
