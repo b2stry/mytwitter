@@ -1,22 +1,22 @@
 # 仿Twitter
 
 
-![首页](http://www.bestry.top/imgrepo/index.png)
+![首页](https://raw.githubusercontent.com/b2stry/imgrepo/master/index.png)
 
-![注册界面](http://www.bestry.top/imgrepo/register.png)
+![注册界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/register.png)
 
-![登录界面](http://www.bestry.top/imgrepo/login.png)
+![登录界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/login.png)
 
-![主界面](http://www.bestry.top/imgrepo/main.png)
+![主界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/main.png)
 
-![发推](http://www.bestry.top/imgrepo/tui.png)
+![发推](https://raw.githubusercontent.com/b2stry/imgrepo/master/tui.png)
 
-![通知界面](http://www.bestry.top/imgrepo/notify.png)
+![通知界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/notify.png)
 
-![用户界面](http://www.bestry.top/imgrepo/self.png)
+![用户界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/self.png)
 
-![其他用户界面](http://www.bestry.top/imgrepo/other.png)
+![其他用户界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/other.png)
 
-![聊天界面](http://www.bestry.top/imgrepo/message.png)
+![聊天界面](https://raw.githubusercontent.com/b2stry/imgrepo/master/message.png)
 
-![查询用户界面](http://www.bestry.top/imgrepo/seacher.png)
+![查询用户界面](https://raw.githubusercontent.com/b2stry/imgrepo/mastero/seacher.png)
