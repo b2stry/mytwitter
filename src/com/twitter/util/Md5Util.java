@@ -3,8 +3,6 @@ package com.twitter.util;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import sun.applet.Main;
-
 public class Md5Util {
 	public static String getMd5(String plainText) {
 		try {

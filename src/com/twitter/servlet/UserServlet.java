@@ -32,9 +32,9 @@ import com.twitter.util.Md5Util;
 import com.twitter.util.Times;
 import com.twitter.util.Upload;
 
+import Decoder.BASE64Decoder;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
-import sun.misc.BASE64Decoder;
 
 /**
  * Servlet implementation class UserServlet
