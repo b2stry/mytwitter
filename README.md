@@ -7,10 +7,11 @@
     git clone https://github.com/b2stry/mytwitter.git
 # 2.使用IDEA or Eclipse or STS导入本项目
 # 3.新建数据库create database mytwitter; 导入数据库文件mytwitter.sql
-# 4.运行项目
+# 4.修改com/twitter/util/DBUtil.java中的数据库链接和密码
+# 5.运行项目
     1.直接在IDE中Run On Server运行
     2.从IDE中导出一个war包放到tomcat的webapps目录下，启动tomcat
-# 5.浏览器访问：
+# 6.浏览器访问：
     http://127.0.0.1:8080 or other
 ```
 
